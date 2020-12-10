@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Bureau trading.unity
+    guid: acd962ed288919b4a944ba50dc9dabab
   m_configObjects: {}
