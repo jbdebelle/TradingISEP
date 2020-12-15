@@ -15103,6 +15103,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startCountDown: 0
   txtTimer: {fileID: 1852971602}
+  fire: {fileID: 2087053884}
+  redlight: {fileID: 1827095253}
 --- !u!1 &1232537778
 GameObject:
   m_ObjectHideFlags: 0
@@ -21312,10 +21314,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c10c184723737b043ad52c59beabac4e, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -21405,7 +21407,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827095253}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 9bb4e983cc2a6474b96c28beaeff62ba, type: 2}
   m_CullingMode: 0
@@ -24895,6 +24897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fx_fire_g
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f766cb0ed6750804ebf9a931fb5412f2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f766cb0ed6750804ebf9a931fb5412f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.13
@@ -24945,6 +24951,38 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8e736f4d9810c8d4a877326dc38c827d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f766cb0ed6750804ebf9a931fb5412f2, type: 3}
+--- !u!1 &2087053884 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: f766cb0ed6750804ebf9a931fb5412f2, type: 3}
+  m_PrefabInstance: {fileID: 2087053883}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2087053885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087053884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8efe66d587e85a64ab7ef4a02e75b5d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fire: {fileID: 2087053884}
+  redlight: {fileID: 1827095253}
+--- !u!65 &2087053889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087053884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.578701, y: 1, z: 2.1112213}
+  m_Center: {x: 0.2893505, y: 0, z: -0.11111975}
 --- !u!1 &2099859658
 GameObject:
   m_ObjectHideFlags: 0

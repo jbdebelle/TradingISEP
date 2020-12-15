@@ -9,6 +9,10 @@ public class TimerScript : MonoBehaviour
     private int startCountDown = 0;
     [SerializeField]
     Text txtTimer;
+    [SerializeField]
+    public GameObject fire;
+    [SerializeField]
+    public GameObject redlight;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +24,13 @@ public class TimerScript : MonoBehaviour
         while (startCountDown < 600)
         {
             yield return new WaitForSeconds(1f);
+
+            if (startCountDown== 10) {
+                Events.EventFire(fire, redlight);
+            }
+            if (startCountDown == 120) {
+                Events.Event2();
+            }
             GameObject CameraCanvas = GameObject.Find("CameraCanvas");
             PauseScript pauseScript = CameraCanvas.GetComponent<PauseScript>();
             
