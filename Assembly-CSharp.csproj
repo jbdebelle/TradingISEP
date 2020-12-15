@@ -55,32 +55,18 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PauseScript.cs" />
-    <Compile Include="Assets\DataDiagram\Script\DD_DrawGraphic.cs" />
-    <Compile Include="Assets\Scripts\MoneyScript.cs" />
-    <Compile Include="Assets\Scripts\PCScript.cs" />
-    <Compile Include="Assets\Scripts\UIScript.cs" />
-    <Compile Include="Assets\Scripts\PlayerControle.cs" />
-    <Compile Include="Assets\DataDiagram\Script\DD_ZoomButton.cs" />
-    <Compile Include="Assets\Scripts\TimerScript.cs" />
-    <Compile Include="Assets\DataDiagram\Script\DD_Lines.cs" />
-    <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
-    <Compile Include="Assets\DataDiagram\Script\DD_LineButton.cs" />
-    <Compile Include="Assets\DataDiagram\Example\Sample.cs" />
-    <Compile Include="Assets\DataDiagram\Script\DD_DragBar.cs" />
-    <Compile Include="Assets\DataDiagram\Script\DD_LineButtonsContent.cs" />
-    <Compile Include="Assets\DataDiagram\Script\DD_DataDiagram.cs" />
-    <Compile Include="Assets\DataDiagram\Script\DD_CoordinateAxis.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarLogger.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\SocialPlatformManager.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarBody.cs" />
     <Compile Include="Assets\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\P2PManager.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\ButtonDownListener.cs" />
+    <Compile Include="Assets\Scripts\PauseScript.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\InteractableToolView.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportInputHandler.cs" />
     <Compile Include="Assets\Oculus\LipSync\Scenes\Scripts\LipSyncDemo_Control.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_DrawGraphic.cs" />
     <Compile Include="Assets\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Scripts\LocomotionSampleSupport.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\StartScene\Scripts\StartMenu.cs" />
@@ -88,6 +74,7 @@
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarTextureCopyManager.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarRenderComponent.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\SoundEmitter.cs" />
+    <Compile Include="Assets\Scripts\MoneyScript.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandler.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainButtonVisualController.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\MinMaxAttribute.cs" />
@@ -96,6 +83,8 @@
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarSkinnedMeshRenderPBSV2Component.cs" />
     <Compile Include="Assets\Oculus\LipSync\Scripts\Helpers\OVRTouchpad.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarSDKManager.cs" />
+    <Compile Include="Assets\Scripts\PCScript.cs" />
+    <Compile Include="Assets\Scripts\UIScript.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandlerParabolic.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCar.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarBase.cs" />
@@ -106,6 +95,7 @@
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarAsset.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\ControllerBoxController.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\HandsManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerControle.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ColliderZone.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPSettings.cs" />
@@ -120,6 +110,8 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCarBase.cs" />
     <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncMicInput.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPProfiler.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_ZoomButton.cs" />
+    <Compile Include="Assets\Scripts\TimerScript.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainTrack.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\RayTool.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarComponent.cs" />
@@ -158,6 +150,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportInputHandlerTouch.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimVisualLaser.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_Lines.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Scripts\CharacterCapsule.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeToolView.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\MoviePlayerSample.cs" />
@@ -190,6 +183,7 @@
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarMaterialManager.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarSDKCAPI.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\NativeVideoPlayer.cs" />
+    <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
     <Compile Include="Assets\Oculus\LipSync\Scenes\Scripts\EnableSwitch.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPPropagationMaterial.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\VectorUtil.cs" />
@@ -199,14 +193,17 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\CowController.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\PanelHMDFollower.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\SimpleCapsuleWithStickMovement.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_LineButton.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\Utils\Pose.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPPropagationGeometry.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandler.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarHand.cs" />
     <Compile Include="Assets\Oculus\LipSync\Scripts\Helpers\OVRNamedArrayAttribute.cs" />
+    <Compile Include="Assets\DataDiagram\Example\Sample.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\PinchStateModule.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarAssetMesh.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_DragBar.cs" />
     <Compile Include="Assets\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\RemotePlayer.cs" />
     <Compile Include="Assets\Oculus\LipSync\Scenes\Scripts\LipSyncDemo_SetCurrentTarget.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainLocomotive.cs" />
@@ -214,16 +211,21 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\WindmillBladesController.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandlerNavMesh.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\LaserPointer.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_LineButtonsContent.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeTool.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionBlink.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarAssetTexture.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\BoneCapsuleTriggerLogic.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\WindmillController.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportDestination.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_DataDiagram.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Scripts\DistanceGrabberSample.cs" />
     <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContextTextureFlip.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\DebugUI\DebugUISample.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_CoordinateAxis.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\ButtonController.cs" />
+    <Compile Include="Assets\Scripts\Events.cs" />
+    <Compile Include="Assets\Scripts\ExtinguisherS.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
@@ -887,22 +889,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="SteamVR_Input_Editor.csproj">
-      <Project>{B2914EB5-B893-5EA7-F4CF-9BA40E0B2805}</Project>
-      <Name>SteamVR_Input_Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Editor.csproj">
-      <Project>{010481C6-E335-F04E-8FA1-A11C92AA6C5F}</Project>
-      <Name>SteamVR_Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR.csproj">
-      <Project>{3FF47D91-10E6-7605-7114-4475CF667AB8}</Project>
-      <Name>SteamVR</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{E76006E8-D2A8-6709-0E69-59759DA7EFCE}</Project>
-      <Name>SteamVR_Windows_EditorHelper</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Platform.Editor.csproj">
       <Project>{F978B45F-99B2-9AE0-15F4-A66C157732ED}</Project>
       <Name>Oculus.Platform.Editor</Name>
@@ -919,9 +905,25 @@
       <Project>{36CB722B-F47F-39C6-7759-40D1BF85F7EE}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
+    <ProjectReference Include="SteamVR_Input_Editor.csproj">
+      <Project>{B2914EB5-B893-5EA7-F4CF-9BA40E0B2805}</Project>
+      <Name>SteamVR_Input_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Editor.csproj">
+      <Project>{010481C6-E335-F04E-8FA1-A11C92AA6C5F}</Project>
+      <Name>SteamVR_Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
       <Project>{BC1B3347-F135-50D3-6D27-788C2C22C26D}</Project>
       <Name>Oculus.Platform</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR.csproj">
+      <Project>{3FF47D91-10E6-7605-7114-4475CF667AB8}</Project>
+      <Name>SteamVR</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
+      <Project>{E76006E8-D2A8-6709-0E69-59759DA7EFCE}</Project>
+      <Name>SteamVR_Windows_EditorHelper</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
