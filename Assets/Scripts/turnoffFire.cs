@@ -9,8 +9,9 @@ public class turnoffFire : MonoBehaviour
     [SerializeField]
     public GameObject redlight;
     // Start is called before the first frame update
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
+        Debug.Log("test");
         bool havefireExtinguisher= GameObject.Find("Player").GetComponent<PlayerControle>().fireoff ;
         Debug.Log("boolfire exting:"+ havefireExtinguisher);
         if (other.tag=="Player"&& Input.GetKey(KeyCode.P) && havefireExtinguisher) {
@@ -22,6 +23,7 @@ public class turnoffFire : MonoBehaviour
         
 
     }
+
     IEnumerator Pause()
     {
         yield return new WaitForSeconds(3f);
