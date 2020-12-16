@@ -16,4 +16,5 @@ public class ExtinguisherS : MonoBehaviour
             Destroy(transform.gameObject, 1f);
         }
     }
+    
 }

@@ -17,7 +17,7 @@ public class turnoffFire : MonoBehaviour
         if (other.tag=="Player"&& Input.GetKey(KeyCode.P) && havefireExtinguisher) {
             Debug.Log("in da loop");
             StartCoroutine(Pause());
-            Events.EventFireOff(fire, redlight);
+            
 
         }
         
@@ -27,6 +27,7 @@ public class turnoffFire : MonoBehaviour
     IEnumerator Pause()
     {
         yield return new WaitForSeconds(3f);
+        Events.EventFireOff(fire, redlight);
     }
 
 }

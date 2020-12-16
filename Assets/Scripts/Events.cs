@@ -9,6 +9,7 @@ public class Events : MonoBehaviour
     {
         fire.SetActive(true);
         redlight.GetComponent<Animator>().enabled = true;
+        
         redlight.GetComponent<AudioSource>().Play();
     }
     public static void EventFireOff(GameObject fire, GameObject redlight)
@@ -16,6 +17,8 @@ public class Events : MonoBehaviour
         
         fire.SetActive(false);
         redlight.GetComponent<Animator>().enabled = false;
+        redlight.GetComponent<Light>().color = Color.white;
+        redlight.GetComponent<Light>().intensity = 1;
         redlight.GetComponent<AudioSource>().enabled = false;
     }
     public static void Event2()
