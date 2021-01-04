@@ -8,4 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bureau trading.unity
     guid: acd962ed288919b4a944ba50dc9dabab
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8cf1b81438f8a8d48be996fa200d1450, type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 64511efd65aacb245ad7ef3c486d4a94, type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 0f2561dbce7935848af171f554f2df3f, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 598a17333941c69458c9bca52d3736d3, type: 2}
